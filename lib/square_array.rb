@@ -11,5 +11,5 @@ new_numbers << current_item ** 2
 counter += 1
 
 end
-results
+new_numbers
 end
