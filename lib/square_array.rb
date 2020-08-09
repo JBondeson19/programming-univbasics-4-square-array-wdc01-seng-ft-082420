@@ -3,8 +3,8 @@ require "pry"
 new_numbers = Array.new
 
 def square_array(array)
-while array ** 2 do
-
+while array do
+array ** 2
 array.push(new_numbers)
 
 end
