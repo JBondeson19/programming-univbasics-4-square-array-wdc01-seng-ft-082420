@@ -6,6 +6,7 @@ def square_array(array)
   counter = 0
 while counter < array.size
   current_item = array[counter]
+
 results << current_item ** 2
 
 
