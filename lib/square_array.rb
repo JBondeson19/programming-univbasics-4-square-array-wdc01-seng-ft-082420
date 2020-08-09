@@ -8,6 +8,7 @@ while counter < array.size
   current_item = array[counter]
 binding.pry
 current_item ** 2
+current_item.push[results]
 
 
 counter += 1
