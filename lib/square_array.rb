@@ -3,5 +3,11 @@ require "pry"
 new_numbers = Array.new
 
 def square_array(array)
-  array.push ** 2 [new_numbers]
+while array ** 2 do
+
+array.push(new_numbers)
+
 end
+end
+
+new_numbers
