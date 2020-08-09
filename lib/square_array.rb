@@ -7,7 +7,7 @@ def square_array(array)
 while counter < array.size
   current_item = array[counter]
 binding.pry
-current_item ** 2 = results
+results << current_item ** 2
 
 
 counter += 1
