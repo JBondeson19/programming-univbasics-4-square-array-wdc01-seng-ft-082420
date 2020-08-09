@@ -1,5 +1,6 @@
 require "pry"
 
+binding.pry
 def square_array(array)
 	results = []
   counter = 0
@@ -9,7 +10,7 @@ while counter < array.size
 current_item ** 2
 
 
-  counter += 1
+counter += 1
 
 end
 end
