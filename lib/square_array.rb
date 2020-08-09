@@ -8,5 +8,3 @@ while counter < array.size
  array[counter] ** 2
 end
 end
-
-
